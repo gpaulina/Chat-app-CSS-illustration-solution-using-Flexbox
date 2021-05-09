@@ -3,7 +3,8 @@ body {
     font-size: 16px;
     background-color: #fafafa;
     line-height: 1.2em;
-    max-height:100vh;
+    height:100vh;
+    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -236,15 +237,17 @@ i.arrow2 {
     color: hsl(271, 36%, 24%);
     font-size: 2em;
     padding-bottom: 0.6em;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.05em;
     line-height: 1.5em;
-
+    margin-left: 20%;
 }
 
 p {
     color: hsl(270, 7%, 64%);
-    line-height: 1.5em;
+    line-height: 1.8em;
+    margin-left: 20%;
+    min-width: 500px;
 }
 
 #price2 {
@@ -281,6 +284,7 @@ p {
     flex:3;
     background-color: #f9f4fa;
     flex-shrink: 5;
+    margin-top:auto; 
 }
 
 .background-decoration {
@@ -289,6 +293,7 @@ p {
 }
 
 @media (max-width:832px ){
+
     .wrapper {
         flex-direction: column;
         justify-content: center;
@@ -299,11 +304,12 @@ p {
 
       .text h1 {
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
       p {
         text-align: center;
+        min-width: 0;
     }
 
     .decoration-left{
@@ -311,8 +317,8 @@ p {
   } 
 
     .decoration-right{
-        bottom:-200px;
         right:-100px;
+        bottom: -500px;
     } 
 }
 
