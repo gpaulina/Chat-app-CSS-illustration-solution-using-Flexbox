@@ -299,14 +299,20 @@ p {
 
       .text h1 {
         text-align: center;
+        font-size: 1.5em;
     }
 
       p {
         text-align: center;
     }
 
+    .decoration-left{
+      left:-100px;
+  } 
+
     .decoration-right{
-        bottom:-100px;
+        bottom:-200px;
+        right:-100px;
     } 
 }
 
