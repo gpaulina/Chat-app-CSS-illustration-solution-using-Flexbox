@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="resetcss.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Chat app CSS illustration solution using Flexbox</title>
+
+</head>
+
+<body>
+
+  <div class="background-decoration">
+    <div class="decoration-left"></div>
+    <div class="decoration-right"></div>
+  </div>
+  <div class="wrapper">
+
+    <div class="phone">
+
+      <div class="phone-header">
+        <div class="white-decoration"></div>
+        <div class="name">
+          <div class="icon-arrow"><i class="arrow"></i></div>
+          <img src="images/pictureperson.JPG" alt="profile-pic" id="avatar">
+          <div class="nameandav">
+            <div class="namename">Samuel Green</div>
+            <div class="available">Available to Walk</div>
+          </div>
+          <div class="icon-dots">&#8942;</div>
+        </div>
+      </div>
+      <div class="messageleft" id="message1">That sounds great. I’d be happy with that.</div>
+      <div class="messageleft" id="message2">Could you send over some pictures of your dog, please?</div>
+      <div class="messageright" id="pictures">
+        <div>
+          <img src="images/dog-image-1.jpg" alt="picture of a dog">
+        </div>
+        <div>
+          <img src="images/dog-image-2.jpg" alt="picture of a dog">
+        </div>
+        <div>
+          <img src="images/dog-image-3.jpg" alt="picture of a dog">
+        </div>
+      </div>
+      <div class="messageright" id="message3">Here are a few pictures. She’s a happy girl!</div>
+      <div class="messageright" id="message4">Can you make it?</div>
+      <div class="messageleft" id="message5">She looks so happy! The time we discussed works. How long shall I take
+        her
+        out for?</div>
+      <div class="price" id="price1">
+        <div class="circle"></div>
+        <div class="time" id="time1">30 minute walk</div>
+        <div class="number" id="price10">$29</div>
+      </div>
+      <div class="price" id="price2">
+        <div class="circle"></div>
+        <div class="time" id="time2">1 hour walk</div>
+        <div class="number" id="price20">$49</div>
+      </div>
+      <div class="typebox">
+        <span id="placeholder-text">Type a message…</span>
+        <span id="send-button"><i class="arrow2"></i></span>
+      </div>
+
+    </div>
+
+    <div class="text">
+      <h1>Simple booking</h1>
+      <p> Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</p>
+    </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#"> Paulina Gałan</a>.
+  </div>
+
+</body>
+
+</html>
