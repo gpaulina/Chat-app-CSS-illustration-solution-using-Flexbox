@@ -245,7 +245,6 @@ i.arrow2 {
 p {
     color: hsl(270, 7%, 64%);
     line-height: 1.8em;
-    margin-left: 20%;
     min-width: 500px;
 }
 
@@ -291,7 +290,7 @@ p {
   width: 100%;
 }
 
-@media (max-width:832px ){
+@media (max-width:982px ){
 
     .wrapper {
         flex-direction: column;
@@ -319,6 +318,17 @@ p {
         right:-100px;
         bottom: -500px;
     } 
+}
+
+@media (max-width:380px ){
+
+
+
+    .text h1 {
+      font-size: 1.2em;
+  }
+
+
 }
 
 @keyframes fadeIn {
